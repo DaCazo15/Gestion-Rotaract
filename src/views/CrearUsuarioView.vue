@@ -17,7 +17,7 @@ defineProps({
 const cambioRuta = useRouter()
 const error = ref(false)
 const messageError = ref('')
-const { setTable } = useSupabase()
+const { setTable, existeItemEnTabla } = useSupabase()
 
 const errorMessage = reactive({
   required: '*campo obligarotio',
@@ -39,6 +39,12 @@ const handleSubmit = async (data) => {
     return
   }
   data.password = bcrypt.hashSync(data.password, 10)
+
+  if (await existeItemEnTabla('users', 'club', data.club)) {
+    messageError.value = 'El club ya está registrado'
+    error.value = true
+    return
+  }
 
   setTable('users', data)
   cambioRuta.push({ name: 'login' })

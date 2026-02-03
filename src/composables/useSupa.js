@@ -83,6 +83,20 @@ export function useSupabase() {
     return balance > 0 ? `$${balance}` : 0;
   };
 
+  const existeItemEnTabla = async (table, column, value) => {
+    const { data, error } = await supabase
+      .from(table)
+      .select('*')
+      .eq(column, value)
+      .single();
+
+    if (error) {
+      console.error(`Error en existeItemEnTabla (${table}):`, error.message)
+      return false
+    }
+    return data !== null
+  }
+
 
   return {
     supabase,
@@ -91,6 +105,7 @@ export function useSupabase() {
     getSelectTable,
     getLengthTable,
     getBalance,
-    getSelectColumnTable
+    getSelectColumnTable,
+    existeItemEnTabla
   }
 }

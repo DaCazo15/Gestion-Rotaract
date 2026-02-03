@@ -1,0 +1,102 @@
+{
+  "usuario": [
+    {
+      "id": "c210",
+      "club": "Rotaract Isla de Margarita",
+      "codigo": "+58",
+      "telefono": "4148197912",
+      "email": "dcazorla.0190@gmail.com",
+      "password": "$2b$10$RD4fSD8P1TXKgKxPeZC6Uu4ZBMk5svfVGJXYQrqv0w3Dyv2TyJLsq"
+    }
+  ],
+  "socio": [
+    {
+      "id": "4544",
+      "club": "Rotaract Isla de Margarita",
+      "nombre": "Daniel",
+      "apellido": "Cazorla",
+      "extranjero": false,
+      "cedula": "27740190",
+      "codigo": "+58",
+      "telefono": "4148197912",
+      "redes": false,
+      "correo": "dcazorla.0190@gmail.com",
+      "municipio": "Arismendi"
+    }
+  ],
+  "aspirante": [
+    {
+      "id": "0c9e",
+      "club": "Rotaract Isla de Margarita",
+      "nombre": "Jose",
+      "apellido": "Chacon",
+      "extranjero": false,
+      "cedula": "12345678",
+      "codigo": "+58",
+      "telefono": "4148197912",
+      "redes": false,
+      "correo": "adrenape@gmail.com",
+      "municipio": "Arismendi"
+    }
+  ],
+  "tesoreria": [
+    {
+      "id": "c521",
+      "club": "Rotaract Isla de Margarita",
+      "socio": "Socio B",
+      "fecha": "2026-01-01",
+      "monto": "20",
+      "tipo": "Ingreso"
+    },
+    {
+      "id": "73ff",
+      "club": "Rotaract Isla de Margarita",
+      "socio": "Daniel Cazorla",
+      "descripcion": "Cuota Distrital",
+      "fecha": "2026-01-06",
+      "monto": "4",
+      "tipo": "Ingreso"
+    },
+    {
+      "id": "c545",
+      "club": "Rotaract Isla de Margarita",
+      "socio": "Daniel Cazorla",
+      "descripcion": "Cuota Distrital",
+      "fecha": "2026-01-15",
+      "monto": "4",
+      "tipo": "Ingreso"
+    }
+  ],
+  "alianza": [
+    {
+      "id": "a847",
+      "empresa": "H2O",
+      "rifEmpresa": "123456789",
+      "correoEmpresa": "h2o.agua@gmail.com",
+      "nombre": "Daniel Cazorla",
+      "extranjero": false,
+      "cedula": "27740190",
+      "codigo": "+58",
+      "telefono": "4148197912",
+      "redes": false,
+      "correo": "dcazorla.0190@gmail.com",
+      "municipio": "Arismendi",
+      "club": "Rotaract Maneiro"
+    },
+    {
+      "id": "7e0d",
+      "club": "Rotaract Isla de Margarita",
+      "empresa": "STB",
+      "rifEmpresa": "277401904",
+      "correoEmpresa": "algoritmi.mgt@gmail.com",
+      "nombre": "STB",
+      "extranjero": false,
+      "cedula": "27740190",
+      "codigo": "+57",
+      "telefono": "3116774120",
+      "redes": false,
+      "correo": "dcazorla.0190@gmail.com",
+      "municipio": "Arismendi"
+    }
+  ]
+}

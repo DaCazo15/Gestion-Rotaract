@@ -90,9 +90,6 @@ defineProps({
           }"
         />
         <p class="text-red-500 text-center mt-4" v-if="error">Credenciales Invalidas</p>
-        <div class="my-5">
-          <div class="g-recaptcha" data-sitekey="6Lebd18sAAAAAC4tq7u5zHL4dBQqFlnsGoKgioYI"></div>
-        </div>
       </FormKit>
       <p class="text-gray-500 text-center mt-4">¿Aun no tienes una cuenta?</p>
       <router-link :to="{ name: 'sign-up' }" class="text-blue-600 text-center hover:underline">

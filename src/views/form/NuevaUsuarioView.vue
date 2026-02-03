@@ -127,6 +127,9 @@ const handleSubmit = (data) => {
             :validation-messages="{ required: errorMessage.required }"
             validation-visibility="live"
           />
+          <div class="my-5">
+            <div class="g-recaptcha" data-sitekey="6Lebd18sAAAAAC4tq7u5zHL4dBQqFlnsGoKgioYI"></div>
+          </div>
         </FormKit>
       </div>
     </div>

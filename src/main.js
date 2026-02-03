@@ -4,6 +4,7 @@ import { plugin, defaultConfig } from '@formkit/vue'
 import App from './App.vue'
 import router from './router'
 import config from '../formkit.config'
+import '@formkit/themes/genesis'
 import './assets/main.css'
 
 const app = createApp(App)
